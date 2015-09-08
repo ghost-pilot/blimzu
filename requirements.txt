@@ -1,0 +1,7 @@
+brew==0.1.2
+eyeD3==0.7.8
+numpy==1.9.2
+py==1.4.30
+pytest==2.7.2
+scikits.audiolab==0.11.0
+wheel==0.24.0

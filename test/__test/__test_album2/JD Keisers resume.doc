@@ -1,0 +1,304 @@
+{\rtf1 \mac \ansicpg437 \cocoartf102 {\fonttbl {\f0 \fnil \fcharset77 Times New Roman{\*\falt Times}
+;}
+{\f1 \fnil \fcharset77 Times-Roman{\*\falt Times}
+;}
+{\f2 \fnil \fcharset77 LucidaGrande{\*\falt Lucida Grande}
+;}
+}
+{\colortbl ;\red0 \green0 \blue0 ;\red0 \green6 \blue62 ;}
+{\stylesheet {\s9 \nisusnoteplacement0 \nisusreferencestyle10 \sbasedon11 {\*\nsmpltxt Footnotes appear at the bottom of each page. (Click to edit this sample text.)}
+footnote text;}
+{\*\cs10 {\*\nsmpltxt The quick brown fox jumped over the lazy dogs.}
+\super footnote reference;}
+{\s11 \snext11 {\*\nsmpltxt Some text goes here so you can see what your style will look like.}
+\f1 \fs24 \cf1 \ql \sb0 \sa120 \sl240 \slmult1 \li0 \lin0 \fi0 \ri0 \rin0 Normal;}
+{\*\cs12 {\*\nsmpltxt The quick brown fox jumped over the lazy dogs.}
+\super endnote reference;}
+{\s13 \nisusnoteplacement2 \nisusreferencestyle12 \sbasedon11 {\*\nsmpltxt Sample text for Foot/End Notes Style}
+endnote text;}
+{\s14 \snext11 \sbasedon11 {\*\nsmpltxt Some text goes here so you can see what your style will look like}
+\f2 \fs28 \b \sb120 \sa0 heading 1;}
+{\s15 \snext11 \sbasedon14 {\*\nsmpltxt Some text goes here so you can see what your style will look like }
+\fs26 heading 2;}
+{\s16 \snext11 \sbasedon15 {\*\nsmpltxt Some text goes here so you can see what your style will look like }
+\i heading 3;}
+{\s17 \snext17 \sbasedon11 {\*\nsmpltxt Some text goes here so you can see what your style will look like.}
+\sa0 header;}
+{\s18 \snext11 \sbasedon11 {\*\nsmpltxt Some text goes here so you can see what your style will look like.}
+\f2 \fs28 \b \qc \sa0 Title;}
+{\s19 \snext19 \sbasedon11 {\*\nsmpltxt Some text goes here so you can see what your style will look like.}
+\sa0 footer;}
+{\s20 \snext20 \sbasedon11 {\*\nsmpltxt Some text goes here so you can see what your style will look like.}
+\li1080 \lin1080 \fi0 \ri1020 \rin1020 Block Quote;}
+{\*\cs21 {\*\nsmpltxt Use this style when you want to emphasize some of your text. (Click to edit this sample text.)}
+\i Emphasis;}
+{\s22 \snext11 \sbasedon16 {\*\nsmpltxt Use this style for headings in your document. (Click to edit this sample text.)}
+\b0 \i0 Heading 4;}
+{\s23 \snext11 \sbasedon22 {\*\nsmpltxt Use this style for headings in your document. (Click to edit this sample text.)}
+\ul Heading 5;}
+{\s24 \snext11 \sbasedon23 {\*\nsmpltxt Use this style for headings in your document. (Click to edit this sample text.)}
+\i Heading 6;}
+{\*\cs25 {\*\nsmpltxt Use this style when you want the text to appear strong. (Click to edit this sample text.)}
+\b Strong;}
+}
+{\*\listtable {\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}
+{\levelnumbers \'01;}
+\li576 \lin576 \fi-576 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}
+{\levelnumbers \'01\'03;}
+\li796 \lin796 \fi-796 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}
+{\levelnumbers \'01\'03\'05;}
+\li1016 \lin1016 \fi-1016 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}
+{\levelnumbers \'01\'03\'05\'07;}
+\li1236 \lin1236 \fi-1236 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}
+{\levelnumbers \'01\'03\'05\'07\'09;}
+\li1456 \lin1456 \fi-1456 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b;}
+\li1676 \lin1676 \fi-1676 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}
+\li1896 \lin1896 \fi-1896 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}
+\li2116 \lin2116 \fi-2116 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}
+\li2336 \lin2336 \fi-2336 \ri0 \rin0 }
+{\listname ;}
+\listid1486790567 \nisuslistcontnum {\*\liststylename Headings;}
+}
+{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}
+{\levelnumbers \'01;}
+\li720 \lin720 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}
+{\levelnumbers \'01;}
+\li1080 \lin1080 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}
+{\levelnumbers \'01;}
+\li1440 \lin1440 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}
+{\levelnumbers \'02;}
+\li1800 \lin1800 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}
+{\levelnumbers \'02;}
+\li2160 \lin2160 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}
+{\levelnumbers \'02;}
+\li2520 \lin2520 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}
+{\levelnumbers \'01;}
+\li2880 \lin2880 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}
+{\levelnumbers \'01;}
+\li3240 \lin3240 \fi-432 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}
+{\levelnumbers \'01;}
+\li3600 \lin3600 \fi-432 \ri0 \rin0 }
+{\listname ;}
+\listid369343077 {\*\liststylename Number List;}
+}
+{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}
+{\levelnumbers \'01;}
+\li648 \lin648 \fi-648 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}
+{\levelnumbers \'01\'03;}
+\li868 \lin868 \fi-868 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}
+{\levelnumbers \'01\'03\'05;}
+\li1088 \lin1088 \fi-1088 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}
+{\levelnumbers \'01\'03\'05\'07;}
+\li1308 \lin1308 \fi-1308 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}
+{\levelnumbers \'01\'03\'05\'07\'09;}
+\li1528 \lin1528 \fi-1528 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b;}
+\li1748 \lin1748 \fi-1748 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}
+\li1968 \lin1968 \fi-1968 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}
+\li2188 \lin2188 \fi-2188 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}
+{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}
+\li2408 \lin2408 \fi-2408 \ri0 \rin0 }
+{\listname ;}
+\listid1321355309 {\*\liststylename Tiered List;}
+}
+{\list \listhybrid {\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li648 \lin648 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li1008 \lin1008 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li1368 \lin1368 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li1728 \lin1728 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li2088 \lin2088 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li2448 \lin2448 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li2808 \lin2808 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li3168 \lin3168 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}
+{\levelnumbers ;}
+\li3528 \lin3528 \fi-360 \ri0 \rin0 }
+{\listname ;}
+\listid890284736 {\*\liststylename Bullet List;}
+}
+{\list \listhybrid {\listlevel \levelnfc1 \levelnfcn1 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}
+{\levelnumbers \'01;}
+\li360 \lin360 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc3 \levelnfcn3 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}
+{\levelnumbers \'01;}
+\li720 \lin720 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}
+{\levelnumbers \'01;}
+\li1080 \lin1080 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'03);}
+{\levelnumbers \'01;}
+\li1440 \lin1440 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}
+{\levelnumbers \'02;}
+\li1800 \lin1800 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}
+{\levelnumbers \'02;}
+\li2160 \lin2160 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'06);}
+{\levelnumbers \'02;}
+\li2520 \lin2520 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'07);}
+{\levelnumbers \'02;}
+\li2880 \lin2880 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'08);}
+{\levelnumbers \'02;}
+\li3240 \lin3240 \fi-360 \ri0 \rin0 }
+{\listname ;}
+\listid1496989303 {\*\liststylename Outline;}
+}
+{\list \listhybrid {\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}
+{\levelnumbers \'01;}
+\li648 \lin648 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}
+{\levelnumbers \'01;}
+\li1008 \lin1008 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}
+{\levelnumbers \'01;}
+\li1368 \lin1368 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}
+{\levelnumbers \'02;}
+\li1728 \lin1728 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}
+{\levelnumbers \'02;}
+\li2088 \lin2088 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}
+{\levelnumbers \'02;}
+\li2448 \lin2448 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}
+{\levelnumbers \'01;}
+\li2808 \lin2808 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}
+{\levelnumbers \'01;}
+\li3168 \lin3168 \fi-360 \ri0 \rin0 }
+{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}
+{\levelnumbers \'01;}
+\li3528 \lin3528 \fi-360 \ri0 \rin0 }
+{\listname ;}
+\listid2128290916 {\*\liststylename Lettered List;}
+}
+}
+{\*\listoverridetable {\listoverride \listid1486790567 \listoverridecount0 \ls1 }
+{\listoverride \listid369343077 \listoverridecount0 \ls2 }
+{\listoverride \listid1321355309 \listoverridecount0 \ls3 }
+{\listoverride \listid890284736 \listoverridecount0 \ls4 }
+{\listoverride \listid1496989303 \listoverridecount0 \ls5 }
+{\listoverride \listid2128290916 \listoverridecount0 \ls6 }
+}
+\deftab720 \defformat \viewkind1 \viewzk1 {\*\nisuswindow \x93 \y26 \w966 \h884 }
+\nisusrulerunits0 \nshwinv0 \nshwpg1 \hyphauto0 \nisusinlinespell1 \ftnnar \enddoc \aenddoc \aftnnar \fet2 \ftnbj \paperw12240 \paperh15840 \margl938 \margr720 \margt1440 \margb1440 \gutter0 \pgnstart1 \nocolbal \sectd \sbkpage \cols1 \ltrsect \colbalsxn0 \pgwsxn12240 \pghsxn15840 \marglsxn938 \margrsxn720 \margtsxn1440 \margbsxn1440 \guttersxn0 \headery720 \footery720 \pgnstarts1 \pgnrestart \pgndec \sxnstarts1 \sxnrestart \sxndec {\header \pard \ql \sb0 \sa0 \sl240 \slmult1 \ilvl0 \li0 \lin0 \fi0 \ri0 \rin0 \s17 \f1 \fs24 \cf1 \par }
+{\footer \pard \ql \sb0 \sa0 \sl240 \slmult1 \ilvl0 \li0 \lin0 \fi0 \ri0 \rin0 \s19 \f1 \fs24 \cf1 \par }
+{\pard \ql \sb0 \sa0 \sl240 \slmult1 \ilvl0 \li0 \lin0 \fi0 \ri0 \rin0 \s11 {\f1 \fs26 \b \cf2 John-David Keiser\fs22 \b0 \tab \tab \tab \tab \tab \tab \tab                                                   \fs18 225 7th Avenue\fs22 \par
+}
+{\f1 \fs22 \cf2 johndavidkeiser@yahoo.com\tab \fs18 \tab }
+{\f1 \fs22 \b0 \cf2 \tab \tab \tab \tab \tab \tab          \tab               \fs18 Apartment B}
+{\f1 \fs18 \cf2 \par
+\fs20 480-329-7464}
+{\f1 \fs20 \b \cf2   \fs18   \fs22 \b0 \tab \tab }
+{\f1 \fs18 \cf2          \tab \tab \tab \tab \tab \tab \tab                                              Santa Cruz, CA \par
+\tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab                             95602}
+{\f1 \fs22 \b0 \cf2 \par
+\fs20 _______________________________________________________________________________________________________\par
+\b Objective\b0 :   To obtain a part time position in the service or entertainment industry and become an asset to a fun and energetic work \tab       team.\par
+\b \par
+Education\b0 :  \fs18 \bullet  Conservatory of Recording Arts & Sciences\tab \tab \tab                \tab                Gilbert/Tempe, AZ\par
+\tab          Master Recording Program ||\tab \tab \tab \tab               \tab                October 05 - June 06\par
+\tab        \bullet  Media 100 Digital Editing Program\tab \tab \tab                \tab                Brattleboro, VT\par
+\fs16 \tab \tab \tab \tab \tab \tab \fs18 \tab \tab \tab                September 98 - February 99\par
+\fs20 \tab       \fs18 \bullet  Leland and Gray U.H.S.\fs20       \tab \tab \tab             \fs18  \tab \tab                Townshend, VT\par
+\fs20 \tab \tab \tab \tab \tab \tab \tab \tab \tab \fs18                September 97 - June  00       \par
+\fs20 \b Service Industry Experience:\par
+\fs18 \b0                \tab         \par
+\tab        \bullet  Final Joy Records : Chandler, AZ\tab \tab \tab \tab                                March - June 2006\tab \tab \tab \par
+\tab          Position : Marketing and Promotion Intern                   \tab \tab                (Supervisor : Bo Caldwell (480) 593 6410)\par
+                  \tab    \par
+\tab        \bullet  Putney Co-op : Putney, VT\tab \tab  \tab \tab \tab                December 2004 - September 2005\tab \par
+                         Position : Kitchen Staff / Server     \tab \tab \tab \tab                (Supervisor : Chris Mattson (802) 387 5866)\par
+\par
+\tab         \bullet  Stepping Stone Real Estate : Brattleboro, VT\tab \tab \tab                December 2004 - September 2005\tab \par
+                         Position : Office Manager     \tab \tab \tab \tab                \tab                (Supervisor : David Brown (802) 257 1111)\par
+\par
+\tab         \bullet  Top Of The Hill Grill : Brattleboro, VT\tab \tab \tab                                Summer 2004\tab \par
+                          Position : Server / Register     \tab \tab \tab \tab                (Supervisor : John Julian (802) 348 7822)\par
+\par
+\tab         \bullet  Perry Mansfield Performing Arts : Steamboat Springs, CO\tab \tab                Summer 2001\tab \par
+                          Position : Kitchen Staff\tab \tab \tab \tab                                                (Supervisor : John (970) 879 7125)\tab \tab             \fs20 \b \par
+Unrelated Experience:\par
+\fs18 \b0 \par
+\tab         \bullet  Rosewood construction : Boulder, CO\tab \tab \tab                \tab                October 2002 - May 2003\tab \tab \par
+\tab           Position : Carpenter                   \tab \tab                \tab \tab                                (Supervisor : David Rose (303) 443 6022)\par
+\par
+                        \bullet  Private Contractor : Brattleboro, VT\tab \tab \tab \tab                July 2001 - September 2004\tab \tab \tab           Position : Carpenter                   \tab \tab                \tab \tab                                (Supervisor : Self)\par
+\par
+                        \bullet  Robert Fritz Inc. : Newfane, VT\tab \tab \tab \tab                                July 2000 - May 2001\par
+                          Position : Digital Media Production\tab \tab \tab \tab                (Supervisor : Robert Fritz (802) 365 7286)\par
+\fs20 \b \par
+\fs18 \b0                          \bullet  From my work experience I have learned to work with the public, and also be efficient and organized. I have achieved\par
+                           a high level of work ethic and am competent and experienced in working with and for others.\tab  \tab \par
+\fs20 \b \par
+Personal References :\par
+\tab         \fs18 \b0 \bullet Bud Pyatak : Newfane, VT \par
+\tab           (802) 348 7822\par
+\par
+}
+{\f1 \fs18 \cf2 \tab          \bullet Sean Mcloughlin : Brattleboro, VT\par
+\tab           (802) 257 4498\par
+\tab \tab   \par
+\tab          \bullet Jarrod Allen : Santa Cruz, CA\tab \tab \tab \tab \tab  \par
+\tab           (831) 295 1400\tab \tab \tab \tab \tab                 }
+{\f1 \fs20 \b \cf2 Other References Available upon Request\cf1 \par
+\fs18 \b0 \par
+\par
+}
+{\f1 \fs18 \cf1 \par
+\tab \tab   \par
+\par
+\tab \tab }
+{\f1 \fs18 \b0 \cf1 \par
+\par }
+}
+}
