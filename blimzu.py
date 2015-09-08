@@ -68,18 +68,30 @@ def remove_basic_dup_files(dup_files, music_dict):
     will pass on that item"""
     total_dupes = 0
     total_mbs = 0
+    yes_answers = ['y', 'ye', 'yes', 'Y', 'YE', 'YES']
     for dup_file_pair in dup_files:
         orig_file = dup_file_pair[0]
         dup_file = dup_file_pair[1]
         dest_file = os.path.join(dup_dir, dup_file.split(os.sep)[-1])
         try:
-            shutil.move(dup_file, dest_file)
-            print "----BASIC DUPLICATE FILE FOUND----"
+            print "\n----BASIC DUPLICATE FILE FOUND----"
             print "Original File  :", orig_file
             print "Duplicate File :", dup_file
-            print "Moved To       :", dest_file, "\n"
-            total_dupes += 1
-            total_mbs += music_dict[dup_file]['file_size']/1000000
+            print "Will Move To   :", dest_file, "\n"
+            if 'test_blimzu.py' in sys.argv:
+                prompt = 'y'
+            else:
+                prompt = raw_input("*WARNING* Are you sure you want to move this file? (Y/N) : ")
+            if prompt in yes_answers:
+                try:
+                    shutil.move(dup_file, dest_file)
+                    print music_dict[dup_file]['filename'], "moved to:", dup_dir
+                    total_dupes += 1
+                    total_mbs += music_dict[dup_file]['file_size']/1000000
+                except IOError, e:
+                    print "Error moving to:", dest_file, e
+            else:
+                print music_dict[dup_file]['filename'], "NOT moved..."
         except IOError, e:
             print "Error moving :", dup_file
             print e
@@ -106,7 +118,7 @@ def find_basic_dup_files(music_dict):
 
 def print_summary(q_basic_dups_removed, total_mbs):
     total_mbs = ''.join(['[', total_mbs, ' MBs', ']'])
-    print "-------------SUMMARY--------------"
+    print "\n-------------SUMMARY--------------"
     print "Basic duplicate files moved:", q_basic_dups_removed, total_mbs
     print "----------------------------------\n"
 
@@ -136,22 +148,10 @@ def main():
             final_basic_dups_removed += basic_dups_removed
             final_basic_total_mbs += total_basic_mbs
         print_summary(str(final_basic_dups_removed), str(final_basic_total_mbs))
-        print "...Done,", "operation took:", str(time.time() - start_time), "seconds"
+        print "...Done,", "operation took:", str(time.time() - start_time), "seconds\n"
     else:
-        print('Usage: python blimzu.py dir -or- python blimzu.py dir1 dir2 dir3')
+        print('Usage: python blimzu.py dir -or- python blimzu.py dir1 dir2 dir3 ...')
 
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-# handler = setup_handler()
-# for track in handler.tracks:
-#     try:
-#         print track
-#     except UnicodeEncodeError, e:
-#         print "Error:", e

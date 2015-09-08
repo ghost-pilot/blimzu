@@ -2,6 +2,7 @@ import os
 import sys
 import pytest
 import shutil
+import glob
 
 root_dir = os.path.abspath(os.path.dirname(__file__))
 test_dir = os.path.join(root_dir, '__test/')
@@ -25,6 +26,8 @@ def put_dup_files_back():
         if not f.startswith('.'):
             shutil.move(blimzu.dup_dir + f, test_dir + f)
 
+def listdir_ignore_hidden(file_path):
+    return glob.glob(os.path.join(file_path, '*'))
 
 ################################################################################
 # Tests
@@ -51,6 +54,8 @@ def test_find_basic_dup_files_length():
     dup_files = blimzu.find_basic_dup_files(music_dict)
     assert len(dup_files) == 5
 
+@pytest.mark.skipif(len(listdir_ignore_hidden(blimzu.dup_dir)) > 0,
+                        reason="Can't test if dup_dir is not empty.")
 def test_remove_basic_dup_files(dup_file):
     music_dict = blimzu.get_music_dict(test_dir)
     dup_files = blimzu.find_basic_dup_files(music_dict)

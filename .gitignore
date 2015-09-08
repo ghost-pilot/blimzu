@@ -1,0 +1,19 @@
+# Compiled artifacts
+*.pyc
+
+# IDE cruft
+.idea
+*.iml
+.classpath
+.project
+.pydevproject
+
+# Mac cruft
+.DS_Store
+
+# virtualenv
+env/
+
+# models and experiments
+models/
+experiments/
