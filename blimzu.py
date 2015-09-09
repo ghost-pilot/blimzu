@@ -1,11 +1,15 @@
 import blimzu_utils as utils
-import xml.sax.handler
 import os
 import getpass
 import shutil
 import time
 import sys
 from stat import *
+from mutagen.mp3 import MP3
+from mutagen.mp4 import MP4
+import scikits.audiolab
+
+
 
 ################################################################################
 # Globals
@@ -23,12 +27,19 @@ formats = ['mp3', 'aif', 'wav', 'sd2', 'm4a']
 ################################################################################
 # Routines
 ################################################################################
-def setup_handler():
-    parser = xml.sax.make_parser()
-    handler = utils.ITunesHandler()
-    parser.setContentHandler(handler)
-    parser.parse(itunes_xml)
-    return handler
+def get_file_duration(filename):
+    file_ext = filename.split('.')[-1]
+    if 'aif' in file_ext or 'wav' in file_ext:
+        audio = scikits.audiolab.Sndfile(filename)
+        return audio.nframes / float(audio.samplerate)
+    elif file_ext == 'mp3':
+        audio = MP3(filename)
+        return audio.info.length
+    elif file_ext == 'mp4':
+        audio = MP4(filename)
+        return audio.info.length
+    else:
+        print "Error: Unable to find duration of file type :", file_ext
 
 
 def get_music_dict(music_dir):
