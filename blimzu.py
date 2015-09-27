@@ -10,7 +10,6 @@ from mutagen.mp4 import MP4
 import scikits.audiolab
 
 
-
 ################################################################################
 # Globals
 ################################################################################
@@ -28,6 +27,9 @@ formats = ['mp3', 'aif', 'wav', 'sd2', 'm4a']
 # Routines
 ################################################################################
 def get_file_duration(filename):
+    """Takes filename as a full file path and returns a float which represents length in seconds
+    :param filename :
+    :returns :"""
     file_ext = filename.split('.')[-1]
     if 'aif' in file_ext or 'wav' in file_ext:
         audio = scikits.audiolab.Sndfile(filename)
@@ -35,7 +37,7 @@ def get_file_duration(filename):
     elif file_ext == 'mp3':
         audio = MP3(filename)
         return audio.info.length
-    elif file_ext == 'mp4':
+    elif file_ext == 'm4a':
         audio = MP4(filename)
         return audio.info.length
     else:
@@ -43,7 +45,10 @@ def get_file_duration(filename):
 
 
 def get_music_dict(music_dir):
-    """Walks through iTunes Music directory on hard disk and returns a dict where
+    """
+    :param music_dir :
+    :returns :
+    Walks through iTunes Music directory on hard disk and returns a dict where
     Key='full/path/to/song/file' and value={'filename':x, 'file_dir':y, 'file_size':z}"""
     music_dict = {}
     song_dict = {}
@@ -62,7 +67,9 @@ def get_music_dict(music_dir):
 
 
 def make_dup_dir():
-    """Creates Users/user/iTunes/duplicates if the folder does not already exist"""
+    """
+    :returns :
+    Creates Users/user/iTunes/duplicates if the folder does not already exist"""
     if not os.path.exists(dup_dir):
         print "Creating:", dup_dir, "\n"
         os.makedirs(dup_dir)
@@ -74,7 +81,11 @@ def make_dup_dir():
 
 
 def remove_basic_dup_files(dup_files, music_dict):
-    """Parses dup_files list and moves each dup_file to Users/user/iTunes/duplicates.
+    """
+    :param dup_files :
+    :param music_dict :
+    :returns :
+    Parses dup_files list and moves each dup_file to Users/user/iTunes/duplicates.
     If a duplicate item exists in the list, shutil.move will throw IOError and it
     will pass on that item"""
     total_dupes = 0
@@ -110,7 +121,10 @@ def remove_basic_dup_files(dup_files, music_dict):
 
 
 def find_basic_dup_files(music_dict):
-    """Parses music_dict to locate files that have identical size, if the size matches,
+    """
+    :param music_dict :
+    :returns :
+    Parses music_dict to locate files that have identical size, if the size matches,
     and file 1's name is in file 2's name or vise versa, the pair of files are added to
     a list where each item is [orig_file, dup_file]. Finally that list is returned"""
     dup_files = []
@@ -128,6 +142,11 @@ def find_basic_dup_files(music_dict):
 
 
 def print_summary(q_basic_dups_removed, total_mbs):
+    """
+    :param q_basic_dups_removed :
+    :param total_mbs :
+    :returns :
+    Print out summary of how many files moved and their accumulative MB totals"""
     total_mbs = ''.join(['[', total_mbs, ' MBs', ']'])
     print "\n-------------SUMMARY--------------"
     print "Basic duplicate files moved:", q_basic_dups_removed, total_mbs
@@ -141,7 +160,7 @@ def main():
     basic_dups_removed = 0
     total_basic_mbs = 0
     final_basic_dups_removed = 0
-    final_basic_total_mbs =0
+    final_basic_total_mbs = 0
 
     if len(sys.argv) > 1:
         print "Begin..."
