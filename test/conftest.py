@@ -32,6 +32,11 @@ dup_files = [os.path.join(root_dir, '__test/__test_album/01 Joker feat. Jessie W
              os.path.join(root_dir, '__test/__test_album/2 With A Little Help From My Friends 2.aif'),
              os.path.join(root_dir, '__test/__test_album/Ride On mix 2.sd2')]
 
+files_with_sizes = ([os.path.join(root_dir, '__test/__test_album/01 Joker feat. Jessie Ware - The Vision (Breathe In).mp3'), 276.1436],
+                    [os.path.join(root_dir, '__test/__test_album/Jacobs Ladder.wav'), 375.78020408163263],
+                    [os.path.join(root_dir, '__test/__test_album/01 Poison.m4a'), 262.0836281179138],
+                    [os.path.join(root_dir, '__test/__test_album/2 With A Little Help From My Friends.aif'), 195.13333333333333])
+
 
 ################################################################################
 # Fixtures
@@ -40,11 +45,18 @@ dup_files = [os.path.join(root_dir, '__test/__test_album/01 Joker feat. Jessie W
 def illegal_file(request):
     return request.param
 
+
 @pytest.fixture(params=legal_files, ids=legal_files)
 def legal_file(request):
     return request.param
 
+
 @pytest.fixture(params=dup_files, ids=dup_files)
 def dup_file(request):
+    return request.param
+
+
+@pytest.fixture(params=files_with_sizes)
+def files_with_size(request):
     return request.param
 

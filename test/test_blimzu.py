@@ -3,6 +3,7 @@ import sys
 import pytest
 import shutil
 import glob
+import time
 
 root_dir = os.path.abspath(os.path.dirname(__file__))
 test_dir = os.path.join(root_dir, '__test/')
@@ -32,6 +33,10 @@ def listdir_ignore_hidden(file_path):
 ################################################################################
 # Tests
 ################################################################################
+def test_get_file_duration(files_with_size):
+    file_length = blimzu.get_file_duration(files_with_size[0])
+    assert file_length == files_with_size[1]
+
 def test_get_music_dict_illegal(illegal_file):
     music_dict = blimzu.get_music_dict(test_dir)
     assert illegal_file not in music_dict
