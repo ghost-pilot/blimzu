@@ -4,10 +4,10 @@ import getpass
 import shutil
 import time
 import sys
+import scikits.audiolab
 from stat import *
 from mutagen.mp3 import MP3
 from mutagen.mp4 import MP4
-import scikits.audiolab
 
 
 ################################################################################
@@ -27,29 +27,31 @@ formats = ['mp3', 'aif', 'wav', 'sd2', 'm4a']
 # Routines
 ################################################################################
 def get_file_duration(filename):
-    """Takes filename as a full file path and returns a float which represents length in seconds
+    """Takes filename as a full file path and returns an int which represents length in seconds
     :param filename :
     :returns :"""
     file_ext = filename.split('.')[-1]
-    if 'aif' in file_ext or 'wav' in file_ext:
+    if file_ext in ['aif', 'wav']:
         audio = scikits.audiolab.Sndfile(filename)
-        return audio.nframes / float(audio.samplerate)
+        dur = audio.nframes / float(audio.samplerate)
     elif file_ext == 'mp3':
         audio = MP3(filename)
-        return audio.info.length
+        dur = audio.info.length
     elif file_ext == 'm4a':
         audio = MP4(filename)
-        return audio.info.length
+        dur = audio.info.length
     else:
         print "Error: Unable to find duration of file type :", file_ext
+        dur = None
+    return round(dur)
 
 
 def get_music_dict(music_dir):
     """
     :param music_dir :
     :returns :
-    Walks through iTunes Music directory on hard disk and returns a dict where
-    Key='full/path/to/song/file' and value={'filename':x, 'file_dir':y, 'file_size':z}"""
+    Walks through music_dir on hard disk and returns a dict where Key='full/path/to/song/file'
+    and value={'filename':x, 'file_dir':y, 'file_size':z}"""
     music_dict = {}
     song_dict = {}
     for (dirpath, dirnames, filenames) in os.walk(music_dir):
@@ -127,7 +129,9 @@ def find_basic_dup_files(music_dict):
     Parses music_dict to locate files that have identical size, if the size matches,
     and file 1's name is in file 2's name or vise versa, the pair of files are added to
     a list where each item is [orig_file, dup_file]. Finally that list is returned"""
+    print "Collecting basic duplicate files (same file size with similar names)..."
     dup_files = []
+    dup_count = 0
     for key, value in music_dict.iteritems():
         for key2, value2 in music_dict.iteritems():
             if value['file_size'] == value2['file_size']:
@@ -138,6 +142,8 @@ def find_basic_dup_files(music_dict):
                         orig_file = max(key, key2)
                         dup_file = min(key, key2)
                         dup_files.append([orig_file, dup_file])
+                        dup_count += 1
+    print "Number of basic duplicates found :", str(dup_count/2)
     return list(set(tuple(i) for i in dup_files))
 
 
