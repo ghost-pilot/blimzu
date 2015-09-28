@@ -37,6 +37,13 @@ def test_get_file_duration(files_with_size):
     file_length = blimzu.get_file_duration(files_with_size[0])
     assert file_length == files_with_size[1]
 
+
+def test_get_file_duration_same_song(same_song_diff_type):
+    same_song_type_1_dur = blimzu.get_file_duration(same_song_diff_type[0])
+    same_song_type_2_dur = blimzu.get_file_duration(same_song_diff_type[1])
+    assert same_song_type_1_dur == same_song_type_2_dur
+
+
 def test_get_music_dict_illegal(illegal_file):
     music_dict = blimzu.get_music_dict(test_dir)
     assert illegal_file not in music_dict
@@ -58,6 +65,7 @@ def test_find_basic_dup_files_length():
     music_dict = blimzu.get_music_dict(test_dir)
     dup_files = blimzu.find_basic_dup_files(music_dict)
     assert len(dup_files) == 5
+
 
 @pytest.mark.skipif(len(listdir_ignore_hidden(blimzu.dup_dir)) > 0,
                         reason="Can't test if dup_dir is not empty.")
